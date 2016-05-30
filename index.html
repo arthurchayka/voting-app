@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<!--
+
+
+                                        __..---'"""""""`---..__
+                                   _.-''    ____......____     ``-._
+                               _.-'   _.--'"     _        `""-.._   `-._
+                            _,'   _.-'    *  _.-"_`   ~  .-.  ,  `-._   `._
+                          ,'    .'      ~    `.-'    "  :   :   ~    `-.   `.
+                        ,'    .'   "      "     ____     ._.      /. '  `.   `.
+                      ,'   .- .--.  *  ||  ,  ."    `.        "  //   "   `.   `.
+                    ,'   .'  :   .'    ||     """| |"'  ~   _   // ,    *   `.   `.
+                   /   .' ~  : ,'`,  ~ |'   "    '-'  *    (C)      ."".    " `.   \
+                  /   '       ` `'         *   ~     .   "     *   :   .  ~     .   \
+                 /   '   // *   ,  ,-.  ~   _   ,  .','     '    "  `.'      (0) .   \
+                /   .   //   (c)  :   :    (o)   .'.'   ,  ~  \\         *       *.   \
+               /   . , //  ,      `.__,   "       '      .--.  \\  ~   =====   "   .   \
+              /   '           "        ____  ,  "   *   `.   `  })  _  "   ~  .     .   \
+             .   '   "  ,  ~    _ *    ----'  ~       , .'`, ;     (O)    .   ,-. "  .
+             '  '  _      .    (o)  ~       *   " (D)    `" `    "     *   ___| |___  .  .
+            j  .  (c) *  `.`.            "    .-     .  ~    , *   .       '._    .'  |  |
+            |  | "         `.'  "   //      .'  :  "      '         ~  //     `"""   *|  |
+            |  |       "  .        //   ~  '    ,    ~ , ===="  (c)   //  ~    .    " |  |
+            |  |  ~ ,'    .-. ~      ,  _  `...' (@)        ~  `           *     (C)  |  |
+            |  |*   ||  __| |___  "    (0) "     __   ,""-.      .--.  "  _   '       |  |
+            |  | ,  ||  '.    ,'    ~    __..--"' ,  '   .'   " '    .   ())    \\  ~ |  |
+            |  |      ~   `""" __,..--'"'        ,   '_,'`. *    `--"        . " \\   |  |
+            '  `  "   __...--''          __        *    `.'    ~     "   .--.   , \\  '  |
+             `..`--'''          __..---'' .'    /___..      "   .  *    `.   `    .  .   '
+                      __,..--'''    _  " ,     / ---""  ~    . `.`.  ~  .'`, ;  "   .   .
+             __..---''     ,   "   (O)  ,     /   .       (Q)    `.`.    `" `    * .   ,
+     ,..--'''    .   *  ~   ||   *    ~      / "     *        , ~  `    ~  , (O)  '   .
+    |  | ,   (@)   "      " ||   .-.   '    /   _  ~   " || .    *    "          '   .
+    '  '   "    ~ .   .--.  |j  :   : /    /~  (O)       ||   "   .  _  *  /. " '   ,
+     .  `    _____   `.   `      .__,/    /         .-.  ||   ,--.  (@)   //  .    /
+      `  `.  ----- * .'`, ;   "     /    /   "     :   :     '   .'      //  .   ,'
+       `.  .  ~       `" `  *   ~  /    /,      ~   .__,  ,  : ,'`  "      .'   /
+         .  `  , (c)     '  .     /    /    *              ~  ' `'    * _.'   ,'
+          `.  .        *  .  (C) /    /  "  (o)  \\ ,  *          ~ _.-"    ,'
+            .  `.   "    // .   /    ,._    ,     \\      (O) * _.-"     _.'
+             `.  `.   , //     /    ,   ``-.._  *  `  "   __.-"'     _.-'
+               `._  `.    . " /     `._       "`--....--""      _,.-'
+                  `.  `-._   /         `--..___         ___..--'
+                    `-._  ` ,                  `'"""""''
+                        `-.'
+
+
+-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Cards Example</title>
+    <meta name="description" content="Practicing flexbox and bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- ANIMATE-->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- NORMALIZER -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- TYPOGRAPHY -->
+    <link rel="stylesheet" href="css/fonts/styles.css">
+    <link rel="stylesheet" href="css/fonts/emoji-font.css">
+</head>
+
+<body>
+
+
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://universe.com" target="blank"><img src="./IMG/logo.svg" alt="Universe Logo"></a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html" title="Home">Snacks</a></li>
+            <li><a href="article.html" title="Articles">Hackathon</a></li>
+            <li><a href="lessons.html" title="Lessons">Social Friday</a></li>
+            <li><a href="about.html" title="About">Other</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="animated fadeInUp title">
+
+        <h3>Voting Poll</h3>
+        <h1>Snack Delivery</h1>
+
+    </div>
+
+    <div class="overlay"></div>
+    <div class="header-img">
+    </div>
+    <div class="blurred-header-img">
+    </div>
+
+    <div class="calendar" class="thumbnail img-responsive" class="col-sm-4">
+        <div class="header">
+            <div class="week">
+                <div class="day header-text">June 2016</div>
+            </div>
+            <div class="week">
+                <div class="day header-text2">S</div>
+                <div class="day header-text2">M</div>
+                <div class="day header-text2">T</div>
+                <div class="day header-text2">W</div>
+                <div class="day header-text2">T</div>
+                <div class="day header-text2">F</div>
+                <div class="day header-text2">S</div>
+            </div>
+        </div>
+        <div class="week">
+            <div class="day disabled">29</div>
+            <div class="day disabled">30</div>
+            <div class="day disabled">31</div>
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+        </div>
+        <div class="week">
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+        </div>
+        <div class="week">
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+        </div>
+        <div class="week">
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day active">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+        </div>
+        <div class="week">
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+            <div class="day disabled">1</div>
+            <div class="day disabled">2</div>
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <div class="card">
+            <div class="card_owner">
+                <div class="avatar avatar-arthur"></div>
+                <div class="name">Arthur Chayka</div>
+            </div>
+            <div class="card_img card_img--animalcookies"></div>
+            <div class="card_content">
+                <div class="card_title"><a href="https://naturebox.com/product/whole-wheat-chocolate-animal-cookies" target="bank">Whole Wheat Chocolate Animal Cookies</a></div>
+                <div class="buttons">
+                    <div class="btn upvote">👍</div>
+                    <div class="btn downvote">👎</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card_owner">
+                <div class="avatar avatar-celia"></div>
+                <div class="name">Celia Tang</div>
+            </div>
+            <div class="card_img card_img--pretzels"></div>
+            <div class="card_content">
+                <div class="card_title"><a href="https://naturebox.com/product/kung-pao-pretzels" target="bank">Kung Pao Pretzels</a></div>
+                <div class="buttons">
+                    <div class="btn upvote">👍</div>
+                    <div class="btn downvote">👎</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card_owner">
+                <div class="avatar avatar-grace"></div>
+                <div class="name">Grace Rivera</div>
+            </div>
+            <div class="card_img card_img--yogurt"></div>
+            <div class="card_content">
+                <div class="card_title"><a href="https://naturebox.com/product/blueberry-greek-yogurt-pretzels" target="bank">Pleasurable Blueberry Greek Yogurt Pretzels</a></div>
+                <div class="buttons">
+                    <div class="btn upvote">👍</div>
+                    <div class="btn downvote">👎</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card_owner">
+                <div class="avatar avatar-ivana"></div>
+                <div class="name">Ivanna Lipych</div>
+            </div>
+            <div class="card_img card_img--jam"></div>
+            <div class="card_content">
+                <div class="card_title"><a href="https://naturebox.com/product/peanut-butter-graham-jam" target="bank">Peanut Butter Graham Jam</a></div>
+                <div class="buttons">
+                    <div class="btn upvote">👍</div>
+                    <div class="btn downvote">👎</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card_owner">
+                <div class="avatar avatar-hal"></div>
+                <div class="name">Hal Davis</div>
+            </div>
+            <div class="card_img card_img--yogurtcinamon"></div>
+            <div class="card_content">
+                <div class="card_title"><a href="https://naturebox.com/product/greek-yogurt-apple-cinnamon-oat-bars-6-pack" target="blank">Greek Yogurt Apple Cinnamon Oat Mini Bars (6 Pack)</a></div>
+                <div class="buttons">
+                    <div class="btn upvote">👍</div>
+                    <div class="btn downvote">👎</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card_owner">
+                <div class="avatar avatar-theo"></div>
+                <div class="name">Theo Gosselin</div>
+            </div>
+            <div class="card_img card_img--granola"></div>
+            <div class="card_content">
+                <div class="card_title"><a href="https://naturebox.com/product/french-vanilla-almond-granola" target="blank">French Vanilla Almond Granola</a></div>
+                <div class="buttons">
+                    <div class="btn upvote">👍</div>
+                    <div class="btn downvote">👎</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card_owner">
+                <div class="avatar avatar-gabe"></div>
+                <div class="name">Gabriel Li</div>
+            </div>
+            <div class="card_img card_img--pears"></div>
+            <div class="card_content">
+                <div class="card_title"><a href="https://naturebox.com/product/french-vanilla-almond-granola" target="blank">Dried White Pears(3 Pack)</a></div>
+                <div class="buttons">
+                    <div class="btn upvote">👍</div>
+                    <div class="btn downvote">👎</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card_owner">
+                <div class="avatar avatar-christina"></div>
+                <div class="name">Christina Marie Hicks</div>
+            </div>
+            <div class="card_img card_img--bites"></div>
+            <div class="card_content">
+                <div class="card_title"><a href="https://naturebox.com/product/cranberry-almond-bites" target="blank">Cranberry Almond Bites</a></div>
+                <div class="buttons">
+                    <div class="btn upvote">👍</div>
+                    <div class="btn downvote">👎</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="newpost">
+        <h1>Have a better idea?</h1>
+        <p>I know you do! Go ahead and post it! We will not judge you (may-be).</p>
+        <button class="cta">New Suggestion</button>
+    </div>
+
+    <footer> Made with <span class="heart toRed pulse2">💖</span> in Trinity Bellwoods
+        <br/> © 2016 <a href="https://www.instagram.com/arthurchayka/" target="blank">Arthur Chayka</a>
+    </footer>
+
+    <!-- MODERNIZR -->
+    <script type="text/javascript" src="script/modernizr-2.5.3.min.js"></script>
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <!-- MASONRY -->
+    <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+    <!-- SCROLLREVEAL -->
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.4/scrollreveal.min.js"></script>
+    <!-- SCRIPT -->
+    <script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>

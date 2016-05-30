@@ -1,0 +1,123 @@
+@media only screen and (max-width: 64rem) {
+    .calendar {
+        display: none;
+    }
+    .container {
+        width: 70%;
+    }
+    .header-img {
+        background-position: top center;
+        background-image: url('../IMG/bg-tablet.png');
+        background-size: 64rem 29.375rem;
+    }
+    .blurred-header-img {
+        background-position: top center;
+        background-image: url('../IMG/bg-tablet-blur.png');
+        background-size: 64rem 29.375rem;
+    }
+
+@media only screen and (max-width: 50rem) {
+    .container {
+        width: 90%;
+        top: 25rem;
+        padding: 0;
+    }
+    .card {
+        width: 96%;
+    }
+    .nav {
+        justify-content: flex-start;
+    }
+    ul.menu {
+        align-items: flex-end;
+    }
+    .calendar {
+        display: none;
+    }
+    .newpost {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        padding-top: 30rem;
+    }
+    footer {
+        padding-top: 5rem;
+        padding-bottom: 1.875rem;
+    }
+    .nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo {
+        align-self: center;
+        padding-left: 0;
+    }
+    ul.menu {
+        align-self: center;
+        padding-top: 1.875rem;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 40rem) {
+    .header-img {
+        background-position: top center;
+        background-image: url('../IMG/bg-mob.png');
+        background-size: 30.25rem 29.375rem;
+    }
+    .blurred-header-img {
+        background-position: top center;
+        background-image: url('../IMG/bg-mob-blur.png');
+        background-size: 30.25rem 29.375rem;
+    }
+    .card {
+        width: 97%;
+    }
+    .content {
+        width: 100%;
+    }
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    }
+    .logo {
+        align-self: center;
+    }
+    ul.menu {
+        padding-left: 0rem;
+        padding-top: 1.5rem;
+        align-self: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    li a {
+        font-size: 0.9rem;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
+    .title {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        top: 21rem;
+    }
+}
+
+@media only screen and (max-width: 20rem) {
+    .title {
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+        top: 18rem;
+    }
+    .container {
+        top: 21.25rem;
+        width: 95%;
+    }
+    .newpost {
+        padding-top: 28.125rem;
+    }
+    .card {
+        width: 95%;
+        left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
