@@ -20,8 +20,8 @@ body {
     z-index: 2;
 }
 
-.header-img {
-    background-image: url('../IMG/bg.png');
+.header-_img {
+    background-image: url('../_img/bg.png');
     position: absolute;
     overflow: hidden;
     background-attachment: fixed;
@@ -36,8 +36,8 @@ body {
     z-index: 1;
 }
 
-.blurred-header-img {
-    background-image: url('../IMG/bg-blur.png');
+.blurred-header-_img {
+    background-image: url('../_img/bg-blur.png');
     background-attachment: fixed;
     background-repeat: repeat-x;
     position: absolute;
@@ -336,35 +336,35 @@ h4 {
 }
 
 .avatar-arthur {
-    background-image: url('../IMG/avatars/arthur.png');
+    background-image: url('../_img/avatars/arthur.png');
 }
 .avatar-celia {
-    background-image: url('../IMG/avatars/celia.jpg');
+    background-image: url('../_img/avatars/celia.jpg');
 }
 .avatar-ivana {
-    background-image: url('../IMG/avatars/ivana.jpg');
+    background-image: url('../_img/avatars/ivana.jpg');
 }
 .avatar-grace {
-    background-image: url('../IMG/avatars/grace.jpg');
+    background-image: url('../_img/avatars/grace.jpg');
 }
 .avatar-gabe {
-    background-image: url('../IMG/avatars/gabe.jpg');
+    background-image: url('../_img/avatars/gabe.jpg');
 }
 .avatar-christina {
-    background-image: url('../IMG/avatars/christina.jpg');
+    background-image: url('../_img/avatars/christina.jpg');
 }
 .avatar-theo {
-    background-image: url('../IMG/avatars/theo.jpg');
+    background-image: url('../_img/avatars/theo.jpg');
 }
 .avatar-hal {
-    background-image: url('../IMG/avatars/hal.jpg');
+    background-image: url('../_img/avatars/hal.jpg');
 }
 .avatar-valery {
-    background-image: url('../IMG/avatars/valery.jpg');
+    background-image: url('../_img/avatars/valery.jpg');
 }
 
 /*IMAGES*/
-.card_img {
+.card__img {
     height: 12.5rem;
     max-width: 100%;
     vertical-align: middle;
@@ -375,35 +375,35 @@ h4 {
     opacity: 0.8;
 }
 
-.card_img--animalcookies {
-    background-image: url('../IMG/food/840_product.jpg');
+.card__img--animalcookies {
+    background-image: url('../_img/food/840_product.jpg');
 }
-.card_img--pretzels {
-    background-image: url('../IMG/food/585_product.jpg');
+.card__img--pretzels {
+    background-image: url('../_img/food/585_product.jpg');
 }
-.card_img--jam {
-    background-image: url('../IMG/food/1318_product.jpg');
+.card__img--jam {
+    background-image: url('../_img/food/1318_product.jpg');
 }
-.card_img--yogurt {
-    background-image: url('../IMG/food/648_product.jpg');
+.card__img--yogurt {
+    background-image: url('../_img/food/648_product.jpg');
 }
-.card_img--waffles {
-    background-image: url('../IMG/food/f2928692b269f3a0e6e3305356c4eb07.jpg');
+.card__img--waffles {
+    background-image: url('../_img/food/f2928692b269f3a0e6e3305356c4eb07.jpg');
 }
-.card_img--crisps {
-    background-image: url('../IMG/food/576_product.jpg');
+.card__img--crisps {
+    background-image: url('../_img/food/576_product.jpg');
 }
-.card_img--granola {
-    background-image: url('../IMG/food/283_product.jpg');
+.card__img--granola {
+    background-image: url('../_img/food/283_product.jpg');
 }
-.card_img--pears {
-    background-image: url('../IMG/food/142_product.jpg');
+.card__img--pears {
+    background-image: url('../_img/food/142_product.jpg');
 }
-.card_img--bites {
-    background-image: url('../IMG/food/314_product.jpg');
+.card__img--bites {
+    background-image: url('../_img/food/314_product.jpg');
 }
-.card_img--yogurtcinamon {
-    background-image: url('../IMG/food/1313_product.jpg');
+.card__img--yogurtcinamon {
+    background-image: url('../_img/food/1313_product.jpg');
 }
 
 /*NEW POST*/
